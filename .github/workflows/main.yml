@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{secrets.3b98e1a4-ab95-4909-bcc0-b8651fdcb9d3}}
+          heroku_api_key: ${{secrets.1ea5b10c-4fc9-470b-b8cb-2036f9741405}}
           heroku_app_name: ${{secrets.leechx01bot}}
           heroku_email: ${{secrets.pro963123@gmail.com}}
           usedocker: true
